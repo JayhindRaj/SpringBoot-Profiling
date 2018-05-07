@@ -1,0 +1,351 @@
+2018-05-04 13:02:15.911  INFO 2324 --- [main] com.concretepage.ActiveProfileTest       : Starting ActiveProfileTest on dlujayrajpo83507 with PID 2324 (started by jayrajpo in D:\Work\spring-boot-profiles-example\spring-boot-demo)
+2018-05-04 13:02:15.913  INFO 2324 --- [main] com.concretepage.ActiveProfileTest       : The following profiles are active: prod,animal_prod
+2018-05-04 13:02:15.965  INFO 2324 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1ff4931d: startup date [Fri May 04 13:02:15 IST 2018]; root of context hierarchy
+2018-05-04 13:02:18.255  INFO 2324 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8585 (http)
+2018-05-04 13:02:18.275  INFO 2324 --- [main] o.apache.catalina.core.StandardService   : Starting service Tomcat
+2018-05-04 13:02:18.276  INFO 2324 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.11
+2018-05-04 13:02:18.430  INFO 2324 --- [localhost-startStop-1] o.a.c.c.C.[.[.[/spring-boot-prod]        : Initializing Spring embedded WebApplicationContext
+2018-05-04 13:02:18.701  INFO 2324 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2018-05-04 13:02:18.706  INFO 2324 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-05-04 13:02:18.713  INFO 2324 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-05-04 13:02:18.713  INFO 2324 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-05-04 13:02:18.714  INFO 2324 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-05-04 13:02:19.596  INFO 2324 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8585 (http)
+2018-05-04 13:02:19.600  INFO 2324 --- [main] com.concretepage.ActiveProfileTest       : Started ActiveProfileTest in 4.173 seconds (JVM running for 5.259)
+2018-05-04 13:02:20.141  INFO 2324 --- [http-nio-8585-exec-1] o.a.c.c.C.[.[.[/spring-boot-prod]        : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-05-04 13:02:20.271  INFO 2324 --- [Thread-3] ationConfigEmbeddedWebApplicationContext : Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1ff4931d: startup date [Fri May 04 13:02:15 IST 2018]; root of context hierarchy
+2018-05-04 13:03:02.043  INFO 960 --- [main] com.concretepage.ActiveProfileTest       : Starting ActiveProfileTest on dlujayrajpo83507 with PID 960 (started by jayrajpo in D:\Work\spring-boot-profiles-example\spring-boot-demo)
+2018-05-04 13:03:02.044  INFO 960 --- [main] com.concretepage.ActiveProfileTest       : The following profiles are active: prod
+2018-05-04 13:03:02.080  INFO 960 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1ff4931d: startup date [Fri May 04 13:03:02 IST 2018]; root of context hierarchy
+2018-05-04 13:03:04.483  INFO 960 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8585 (http)
+2018-05-04 13:03:04.501  INFO 960 --- [main] o.apache.catalina.core.StandardService   : Starting service Tomcat
+2018-05-04 13:03:04.502  INFO 960 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.11
+2018-05-04 13:03:04.639  INFO 960 --- [localhost-startStop-1] o.a.c.c.C.[.[.[/spring-boot-prod]        : Initializing Spring embedded WebApplicationContext
+2018-05-04 13:03:04.873  INFO 960 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2018-05-04 13:03:04.877  INFO 960 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-05-04 13:03:04.878  INFO 960 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-05-04 13:03:04.878  INFO 960 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-05-04 13:03:04.878  INFO 960 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-05-04 13:03:05.149  WARN 960 --- [main] ationConfigEmbeddedWebApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'helloController': Unsatisfied dependency expressed through field 'animal'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.concretepage.service.Animal' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2018-05-04 13:03:05.152  INFO 960 --- [main] o.apache.catalina.core.StandardService   : Stopping service Tomcat
+2018-05-04 13:03:05.184  INFO 960 --- [main] utoConfigurationReportLoggingInitializer : 
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.
+2018-05-04 13:03:05.288 ERROR 960 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field animal in com.concretepage.controller.HelloController required a bean of type 'com.concretepage.service.Animal' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.concretepage.service.Animal' in your configuration.
+
+2018-05-04 13:03:05.384  INFO 960 --- [main] com.concretepage.ActiveProfileTest       : Starting ActiveProfileTest on dlujayrajpo83507 with PID 960 (started by jayrajpo in D:\Work\spring-boot-profiles-example\spring-boot-demo)
+2018-05-04 13:03:05.384  INFO 960 --- [main] com.concretepage.ActiveProfileTest       : The following profiles are active: prod
+2018-05-04 13:03:05.388  INFO 960 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@492fc69e: startup date [Fri May 04 13:03:05 IST 2018]; root of context hierarchy
+2018-05-04 13:03:05.879  INFO 960 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8585 (http)
+2018-05-04 13:03:05.880  INFO 960 --- [main] o.apache.catalina.core.StandardService   : Starting service Tomcat
+2018-05-04 13:03:05.880  INFO 960 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.11
+2018-05-04 13:03:05.927  INFO 960 --- [localhost-startStop-1] o.a.c.c.C.[.[.[/spring-boot-prod]        : Initializing Spring embedded WebApplicationContext
+2018-05-04 13:03:06.129  INFO 960 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2018-05-04 13:03:06.131  INFO 960 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-05-04 13:03:06.131  INFO 960 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-05-04 13:03:06.131  INFO 960 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-05-04 13:03:06.135  INFO 960 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-05-04 13:03:06.290  WARN 960 --- [main] ationConfigEmbeddedWebApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'helloController': Unsatisfied dependency expressed through field 'animal'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.concretepage.service.Animal' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2018-05-04 13:03:06.291  INFO 960 --- [main] o.apache.catalina.core.StandardService   : Stopping service Tomcat
+2018-05-04 13:03:06.301  INFO 960 --- [main] utoConfigurationReportLoggingInitializer : 
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.
+2018-05-04 13:03:06.390 ERROR 960 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field animal in com.concretepage.controller.HelloController required a bean of type 'com.concretepage.service.Animal' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.concretepage.service.Animal' in your configuration.
+
+2018-05-04 13:03:06.394 ERROR 960 --- [main] o.s.test.context.TestContextManager      : Caught exception while allowing TestExecutionListener [org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@5bcea91b] to prepare test instance [com.concretepage.ActiveProfileTest@543c6f6d]
+
+java.lang.IllegalStateException: Failed to load ApplicationContext
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:124) ~[spring-test-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:83) ~[spring-test-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener.prepareTestInstance(SpringBootDependencyInjectionTestExecutionListener.java:47) ~[spring-boot-test-autoconfigure-1.5.2.RELEASE.jar:1.5.2.RELEASE]
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:230) ~[spring-test-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:228) [spring-test-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:287) [spring-test-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12) [junit-4.12.jar:4.12]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:289) [spring-test-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:247) [spring-test-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:94) [spring-test-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268) [junit-4.12.jar:4.12]
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61) [spring-test-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70) [spring-test-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363) [junit-4.12.jar:4.12]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:191) [spring-test-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:50) [.cp/:na]
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38) [.cp/:na]
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:459) [.cp/:na]
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:675) [.cp/:na]
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:382) [.cp/:na]
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:192) [.cp/:na]
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'helloController': Unsatisfied dependency expressed through field 'animal'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.concretepage.service.Animal' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:588) ~[spring-beans-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:88) ~[spring-beans-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:366) ~[spring-beans-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1264) ~[spring-beans-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:553) ~[spring-beans-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483) ~[spring-beans-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306) ~[spring-beans-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230) ~[spring-beans-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302) ~[spring-beans-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197) ~[spring-beans-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:761) ~[spring-beans-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:866) ~[spring-context-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:542) ~[spring-context-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:122) ~[spring-boot-1.5.2.RELEASE.jar:1.5.2.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:737) ~[spring-boot-1.5.2.RELEASE.jar:1.5.2.RELEASE]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:370) ~[spring-boot-1.5.2.RELEASE.jar:1.5.2.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:314) ~[spring-boot-1.5.2.RELEASE.jar:1.5.2.RELEASE]
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:120) ~[spring-boot-test-1.5.2.RELEASE.jar:1.5.2.RELEASE]
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:98) ~[spring-test-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:116) ~[spring-test-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	... 24 common frames omitted
+Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.concretepage.service.Animal' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.raiseNoMatchingBeanFound(DefaultListableBeanFactory.java:1486) ~[spring-beans-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1104) ~[spring-beans-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1066) ~[spring-beans-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:585) ~[spring-beans-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	... 43 common frames omitted
+
+2018-05-04 13:03:06.579  INFO 960 --- [main] com.concretepage.ActiveProfileTest       : Starting ActiveProfileTest on dlujayrajpo83507 with PID 960 (started by jayrajpo in D:\Work\spring-boot-profiles-example\spring-boot-demo)
+2018-05-04 13:03:06.580  INFO 960 --- [main] com.concretepage.ActiveProfileTest       : The following profiles are active: prod
+2018-05-04 13:03:06.582  INFO 960 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@2cfbeac4: startup date [Fri May 04 13:03:06 IST 2018]; root of context hierarchy
+2018-05-04 13:03:07.072  INFO 960 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8585 (http)
+2018-05-04 13:03:07.073  INFO 960 --- [main] o.apache.catalina.core.StandardService   : Starting service Tomcat
+2018-05-04 13:03:07.073  INFO 960 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.11
+2018-05-04 13:03:07.100  INFO 960 --- [localhost-startStop-1] o.a.c.c.C.[.[.[/spring-boot-prod]        : Initializing Spring embedded WebApplicationContext
+2018-05-04 13:03:07.288  INFO 960 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2018-05-04 13:03:07.289  INFO 960 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-05-04 13:03:07.290  INFO 960 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-05-04 13:03:07.290  INFO 960 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-05-04 13:03:07.291  INFO 960 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-05-04 13:03:07.437  WARN 960 --- [main] ationConfigEmbeddedWebApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'helloController': Unsatisfied dependency expressed through field 'animal'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.concretepage.service.Animal' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2018-05-04 13:03:07.438  INFO 960 --- [main] o.apache.catalina.core.StandardService   : Stopping service Tomcat
+2018-05-04 13:03:07.452  INFO 960 --- [main] utoConfigurationReportLoggingInitializer : 
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.
+2018-05-04 13:03:07.530 ERROR 960 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field animal in com.concretepage.controller.HelloController required a bean of type 'com.concretepage.service.Animal' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.concretepage.service.Animal' in your configuration.
+
+2018-05-04 13:03:07.635  INFO 960 --- [main] com.concretepage.ActiveProfileTest       : Starting ActiveProfileTest on dlujayrajpo83507 with PID 960 (started by jayrajpo in D:\Work\spring-boot-profiles-example\spring-boot-demo)
+2018-05-04 13:03:07.635  INFO 960 --- [main] com.concretepage.ActiveProfileTest       : The following profiles are active: prod
+2018-05-04 13:03:07.640  INFO 960 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@14ac77b9: startup date [Fri May 04 13:03:07 IST 2018]; root of context hierarchy
+2018-05-04 13:03:08.090  INFO 960 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8585 (http)
+2018-05-04 13:03:08.091  INFO 960 --- [main] o.apache.catalina.core.StandardService   : Starting service Tomcat
+2018-05-04 13:03:08.092  INFO 960 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.11
+2018-05-04 13:03:08.156  INFO 960 --- [localhost-startStop-1] o.a.c.c.C.[.[.[/spring-boot-prod]        : Initializing Spring embedded WebApplicationContext
+2018-05-04 13:03:08.338  INFO 960 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2018-05-04 13:03:08.340  INFO 960 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-05-04 13:03:08.341  INFO 960 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-05-04 13:03:08.341  INFO 960 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-05-04 13:03:08.341  INFO 960 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-05-04 13:03:08.478  WARN 960 --- [main] ationConfigEmbeddedWebApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'helloController': Unsatisfied dependency expressed through field 'animal'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.concretepage.service.Animal' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2018-05-04 13:03:08.482  INFO 960 --- [main] o.apache.catalina.core.StandardService   : Stopping service Tomcat
+2018-05-04 13:03:08.492  INFO 960 --- [main] utoConfigurationReportLoggingInitializer : 
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.
+2018-05-04 13:03:08.567 ERROR 960 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field animal in com.concretepage.controller.HelloController required a bean of type 'com.concretepage.service.Animal' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.concretepage.service.Animal' in your configuration.
+
+2018-05-04 13:03:08.568 ERROR 960 --- [main] o.s.test.context.TestContextManager      : Caught exception while allowing TestExecutionListener [org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@5bcea91b] to prepare test instance [com.concretepage.ActiveProfileTest@53830483]
+
+java.lang.IllegalStateException: Failed to load ApplicationContext
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:124) ~[spring-test-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:83) ~[spring-test-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener.prepareTestInstance(SpringBootDependencyInjectionTestExecutionListener.java:47) ~[spring-boot-test-autoconfigure-1.5.2.RELEASE.jar:1.5.2.RELEASE]
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:230) ~[spring-test-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:228) [spring-test-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:287) [spring-test-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12) [junit-4.12.jar:4.12]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:289) [spring-test-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:247) [spring-test-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:94) [spring-test-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268) [junit-4.12.jar:4.12]
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61) [spring-test-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70) [spring-test-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363) [junit-4.12.jar:4.12]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:191) [spring-test-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:50) [.cp/:na]
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38) [.cp/:na]
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:459) [.cp/:na]
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:675) [.cp/:na]
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:382) [.cp/:na]
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:192) [.cp/:na]
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'helloController': Unsatisfied dependency expressed through field 'animal'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.concretepage.service.Animal' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:588) ~[spring-beans-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:88) ~[spring-beans-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:366) ~[spring-beans-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1264) ~[spring-beans-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:553) ~[spring-beans-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483) ~[spring-beans-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306) ~[spring-beans-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230) ~[spring-beans-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302) ~[spring-beans-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197) ~[spring-beans-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:761) ~[spring-beans-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:866) ~[spring-context-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:542) ~[spring-context-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:122) ~[spring-boot-1.5.2.RELEASE.jar:1.5.2.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:737) ~[spring-boot-1.5.2.RELEASE.jar:1.5.2.RELEASE]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:370) ~[spring-boot-1.5.2.RELEASE.jar:1.5.2.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:314) ~[spring-boot-1.5.2.RELEASE.jar:1.5.2.RELEASE]
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:120) ~[spring-boot-test-1.5.2.RELEASE.jar:1.5.2.RELEASE]
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:98) ~[spring-test-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:116) ~[spring-test-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	... 24 common frames omitted
+Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.concretepage.service.Animal' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.raiseNoMatchingBeanFound(DefaultListableBeanFactory.java:1486) ~[spring-beans-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1104) ~[spring-beans-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1066) ~[spring-beans-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:585) ~[spring-beans-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	... 43 common frames omitted
+
+2018-05-04 13:03:41.595  INFO 6208 --- [main] com.concretepage.ActiveProfileTest       : Starting ActiveProfileTest on dlujayrajpo83507 with PID 6208 (started by jayrajpo in D:\Work\spring-boot-profiles-example\spring-boot-demo)
+2018-05-04 13:03:41.596  INFO 6208 --- [main] com.concretepage.ActiveProfileTest       : The following profiles are active: prod,animal_prod
+2018-05-04 13:03:41.657  INFO 6208 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1ff4931d: startup date [Fri May 04 13:03:41 IST 2018]; root of context hierarchy
+2018-05-04 13:03:43.990  INFO 6208 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8585 (http)
+2018-05-04 13:03:44.008  INFO 6208 --- [main] o.apache.catalina.core.StandardService   : Starting service Tomcat
+2018-05-04 13:03:44.009  INFO 6208 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.11
+2018-05-04 13:03:44.171  INFO 6208 --- [localhost-startStop-1] o.a.c.c.C.[.[.[/spring-boot-prod]        : Initializing Spring embedded WebApplicationContext
+2018-05-04 13:03:44.432  INFO 6208 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2018-05-04 13:03:44.437  INFO 6208 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-05-04 13:03:44.444  INFO 6208 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-05-04 13:03:44.445  INFO 6208 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-05-04 13:03:44.446  INFO 6208 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-05-04 13:03:45.414  INFO 6208 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8585 (http)
+2018-05-04 13:03:45.418  INFO 6208 --- [main] com.concretepage.ActiveProfileTest       : Started ActiveProfileTest in 4.321 seconds (JVM running for 5.223)
+2018-05-04 13:03:45.605  INFO 6208 --- [http-nio-8585-exec-1] o.a.c.c.C.[.[.[/spring-boot-prod]        : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-05-04 13:03:45.710  INFO 6208 --- [Thread-3] ationConfigEmbeddedWebApplicationContext : Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1ff4931d: startup date [Fri May 04 13:03:41 IST 2018]; root of context hierarchy
+2018-05-04 13:05:35.687  INFO 8600 --- [main] com.concretepage.ActiveProfileTest       : Starting ActiveProfileTest on dlujayrajpo83507 with PID 8600 (started by jayrajpo in D:\Work\spring-boot-profiles-example\spring-boot-demo)
+2018-05-04 13:05:35.689  INFO 8600 --- [main] com.concretepage.ActiveProfileTest       : The following profiles are active: prod,animal_prod
+2018-05-04 13:05:35.748  INFO 8600 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1ff4931d: startup date [Fri May 04 13:05:35 IST 2018]; root of context hierarchy
+2018-05-04 13:05:38.302  INFO 8600 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8585 (http)
+2018-05-04 13:05:38.322  INFO 8600 --- [main] o.apache.catalina.core.StandardService   : Starting service Tomcat
+2018-05-04 13:05:38.324  INFO 8600 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.11
+2018-05-04 13:05:38.515  INFO 8600 --- [localhost-startStop-1] o.a.c.c.C.[.[.[/spring-boot-prod]        : Initializing Spring embedded WebApplicationContext
+2018-05-04 13:05:38.773  INFO 8600 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2018-05-04 13:05:38.786  INFO 8600 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-05-04 13:05:38.787  INFO 8600 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-05-04 13:05:38.787  INFO 8600 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-05-04 13:05:38.787  INFO 8600 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-05-04 13:05:39.591  INFO 8600 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8585 (http)
+2018-05-04 13:05:39.596  INFO 8600 --- [main] com.concretepage.ActiveProfileTest       : Started ActiveProfileTest in 4.355 seconds (JVM running for 5.336)
+2018-05-04 13:05:39.880  INFO 8600 --- [http-nio-8585-exec-1] o.a.c.c.C.[.[.[/spring-boot-prod]        : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-05-04 13:05:39.990  INFO 8600 --- [Thread-3] ationConfigEmbeddedWebApplicationContext : Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1ff4931d: startup date [Fri May 04 13:05:35 IST 2018]; root of context hierarchy
+2018-05-04 13:21:50.120  INFO 4952 --- [main] com.concretepage.ActiveProfileTest       : Starting ActiveProfileTest on dlujayrajpo83507 with PID 4952 (started by jayrajpo in D:\Work\spring-boot-profiles-example\spring-boot-demo)
+2018-05-04 13:21:50.121  INFO 4952 --- [main] com.concretepage.ActiveProfileTest       : The following profiles are active: prod,animal_prod
+2018-05-04 13:21:50.184  INFO 4952 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@710f4dc7: startup date [Fri May 04 13:21:50 IST 2018]; root of context hierarchy
+2018-05-04 13:21:52.622  INFO 4952 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8585 (http)
+2018-05-04 13:21:52.641  INFO 4952 --- [main] o.apache.catalina.core.StandardService   : Starting service Tomcat
+2018-05-04 13:21:52.643  INFO 4952 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.11
+2018-05-04 13:21:52.802  INFO 4952 --- [localhost-startStop-1] o.a.c.c.C.[.[.[/spring-boot-prod]        : Initializing Spring embedded WebApplicationContext
+2018-05-04 13:21:53.092  INFO 4952 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2018-05-04 13:21:53.097  INFO 4952 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-05-04 13:21:53.107  INFO 4952 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-05-04 13:21:53.107  INFO 4952 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-05-04 13:21:53.108  INFO 4952 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-05-04 13:21:54.149  INFO 4952 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8585 (http)
+2018-05-04 13:21:54.153  INFO 4952 --- [main] com.concretepage.ActiveProfileTest       : Started ActiveProfileTest in 4.556 seconds (JVM running for 5.497)
+2018-05-04 13:21:54.253  INFO 4952 --- [Thread-3] ationConfigEmbeddedWebApplicationContext : Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@710f4dc7: startup date [Fri May 04 13:21:50 IST 2018]; root of context hierarchy
+2018-05-04 13:31:31.182  INFO 9744 --- [main] com.concretepage.ActiveProfileTest       : Starting ActiveProfileTest on dlujayrajpo83507 with PID 9744 (started by jayrajpo in D:\Work\spring-boot-profiles-example\spring-boot-demo)
+2018-05-04 13:31:31.183  INFO 9744 --- [main] com.concretepage.ActiveProfileTest       : The following profiles are active: prod,animal_prod
+2018-05-04 13:31:31.218  INFO 9744 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@710f4dc7: startup date [Fri May 04 13:31:31 IST 2018]; root of context hierarchy
+2018-05-04 13:31:33.578  INFO 9744 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8585 (http)
+2018-05-04 13:31:33.596  INFO 9744 --- [main] o.apache.catalina.core.StandardService   : Starting service Tomcat
+2018-05-04 13:31:33.597  INFO 9744 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.11
+2018-05-04 13:31:33.745  INFO 9744 --- [localhost-startStop-1] o.a.c.c.C.[.[.[/spring-boot-prod]        : Initializing Spring embedded WebApplicationContext
+2018-05-04 13:31:33.999  INFO 9744 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2018-05-04 13:31:34.012  INFO 9744 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-05-04 13:31:34.013  INFO 9744 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-05-04 13:31:34.014  INFO 9744 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-05-04 13:31:34.014  INFO 9744 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-05-04 13:31:34.853  INFO 9744 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8585 (http)
+2018-05-04 13:31:34.858  INFO 9744 --- [main] com.concretepage.ActiveProfileTest       : Started ActiveProfileTest in 4.246 seconds (JVM running for 5.122)
+2018-05-04 13:31:34.985  INFO 9744 --- [Thread-3] ationConfigEmbeddedWebApplicationContext : Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@710f4dc7: startup date [Fri May 04 13:31:31 IST 2018]; root of context hierarchy
+2018-05-04 13:31:45.314  INFO 7264 --- [main] com.concretepage.ActiveProfileTest       : Starting ActiveProfileTest on dlujayrajpo83507 with PID 7264 (started by jayrajpo in D:\Work\spring-boot-profiles-example\spring-boot-demo)
+2018-05-04 13:31:45.315  INFO 7264 --- [main] com.concretepage.ActiveProfileTest       : The following profiles are active: prod,animal_prod
+2018-05-04 13:31:45.353  INFO 7264 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@710f4dc7: startup date [Fri May 04 13:31:45 IST 2018]; root of context hierarchy
+2018-05-04 13:31:47.781  INFO 7264 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8585 (http)
+2018-05-04 13:31:47.800  INFO 7264 --- [main] o.apache.catalina.core.StandardService   : Starting service Tomcat
+2018-05-04 13:31:47.801  INFO 7264 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.11
+2018-05-04 13:31:47.977  INFO 7264 --- [localhost-startStop-1] o.a.c.c.C.[.[.[/spring-boot-prod]        : Initializing Spring embedded WebApplicationContext
+2018-05-04 13:31:48.242  INFO 7264 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2018-05-04 13:31:48.253  INFO 7264 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-05-04 13:31:48.255  INFO 7264 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-05-04 13:31:48.255  INFO 7264 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-05-04 13:31:48.255  INFO 7264 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-05-04 13:31:49.119  INFO 7264 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8585 (http)
+2018-05-04 13:31:49.123  INFO 7264 --- [main] com.concretepage.ActiveProfileTest       : Started ActiveProfileTest in 4.306 seconds (JVM running for 5.271)
+2018-05-04 13:31:49.225  INFO 7264 --- [Thread-3] ationConfigEmbeddedWebApplicationContext : Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@710f4dc7: startup date [Fri May 04 13:31:45 IST 2018]; root of context hierarchy
+2018-05-07 15:54:28.055  INFO 6476 --- [main] com.concretepage.MyApplication           : Starting MyApplication on dlujayrajpo83507 with PID 6476 (D:\Work\spring-boot-profiles-example\spring-boot-demo\target\classes started by jayrajpo in D:\Work\spring-boot-profiles-example\spring-boot-demo)
+2018-05-07 15:54:28.109  INFO 6476 --- [main] com.concretepage.MyApplication           : The following profiles are active: prod,animal_prod
+2018-05-07 15:54:28.204  INFO 6476 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@4f9a3314: startup date [Mon May 07 15:54:28 IST 2018]; root of context hierarchy
+2018-05-07 15:54:30.334  INFO 6476 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8585 (http)
+2018-05-07 15:54:30.349  INFO 6476 --- [main] o.apache.catalina.core.StandardService   : Starting service Tomcat
+2018-05-07 15:54:30.351  INFO 6476 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.11
+2018-05-07 15:54:30.511  INFO 6476 --- [localhost-startStop-1] o.a.c.c.C.[.[.[/spring-boot-prod]        : Initializing Spring embedded WebApplicationContext
+2018-05-07 15:54:30.744  INFO 6476 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2018-05-07 15:54:30.748  INFO 6476 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-05-07 15:54:30.750  INFO 6476 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-05-07 15:54:30.750  INFO 6476 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-05-07 15:54:30.750  INFO 6476 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-05-07 15:54:31.482  INFO 6476 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2018-05-07 15:54:31.573  INFO 6476 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8585 (http)
+2018-05-07 15:54:31.576  INFO 6476 --- [main] com.concretepage.MyApplication           : Hello Lion!
+2018-05-07 15:54:31.578  INFO 6476 --- [main] com.concretepage.MyApplication           : Started MyApplication in 4.059 seconds (JVM running for 4.563)
